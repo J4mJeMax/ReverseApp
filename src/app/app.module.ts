@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ReverseInputComponent } from './reverse-input/reverse-input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReverseInputComponent
   ],
   imports: [
     BrowserModule,
